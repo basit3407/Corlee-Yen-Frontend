@@ -11,7 +11,7 @@ function ProductSubscriptionSection() {
           <input
             type="email"
             placeholder={messages['email_here']}
-            className="bg-transparent text-white placeholder-gray-400 flex-grow focus:outline-none mb-4 sm:mb-0"
+            className="bg-transparent text-white placeholder-gray-400 flex-grow focus:outline-none mb-4 sm:mb-0 sm:mr-4"
           />
           <Button className="bg-white text-black font-medium text-sm h-12 w-full sm:w-32 rounded-full">
             {messages['subscribe']}
