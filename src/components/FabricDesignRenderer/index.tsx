@@ -22,17 +22,20 @@ const FabricDesignRenderer: React.FC<Props> = ({ fabricDesignCardsData }) => {
   ]
 
   return (
-    <div className="flex justify-start items-stretch flex-col gap-6 max-w-[628px] grow-0 shrink-0 basis-auto box-border">
+    <div className="flex flex-col gap-6 max-w-full lg:max-w-[628px]">
       {fabricDesignCardsData.map((data, index) => (
         <FabricDesignCard
           fabricDesignAspect={data.fabricDesignAspect}
           suggestedName={data.suggestedName}
           alignmentPreference={
-            fabricDesignCardAlignmentPreferences[index].alignmentPreference
+            fabricDesignCardAlignmentPreferences[
+              index % fabricDesignCardAlignmentPreferences.length
+            ].alignmentPreference
           }
           determineTextAlignmentBasedOnTheme={
-            fabricDesignCardAlignmentPreferences[index]
-              .determineTextAlignmentBasedOnTheme || (() => 'center')
+            fabricDesignCardAlignmentPreferences[
+              index % fabricDesignCardAlignmentPreferences.length
+            ].determineTextAlignmentBasedOnTheme || (() => 'center')
           } // Provide a default implementation if not provided
           key={index}
         />

@@ -1,9 +1,13 @@
 function DisplayImage() {
   return (
-    <div className="mt-6">
-      <img src="/assets/img_1091_2317_71f72a.jpeg" className="h-[313px] max-w-[initial] object-cover w-[282px] box-border block rounded-3xl border-[none]" />
+    <div className="mt-6 flex justify-center">
+      <img
+        src="/assets/img_1091_2317_71f72a.jpeg"
+        className="h-auto w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl object-cover block rounded-3xl border-none"
+        alt="Responsive"
+      />
     </div>
-  );
+  )
 }
 
-export default DisplayImage;
+export default DisplayImage

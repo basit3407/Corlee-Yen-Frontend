@@ -19,15 +19,15 @@ const FabricDesignCard: React.FC<FabricDesignCardProps> = ({
   const textAlign = determineTextAlignmentBasedOnTheme('center') // Pass the theme value
 
   return (
-    <div className="bg-[black] box-border flex justify-center flex-col grow-0 shrink-0 basis-auto pl-[23px] pr-[21.5px] py-[51px] rounded-3xl [&>*:nth-child(even)]:items-stretch [&>*:nth-child(odd)]:items-center">
+    <div className="bg-black flex flex-col justify-center p-6 rounded-3xl">
       <p
-        className="[font-family:Artnoova] text-[32px] font-bold tracking-[1.60px] text-[white] whitespace-pre-wrap grow-0 shrink-0 basis-auto m-0 p-0"
+        className="font-bold tracking-wider text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
         style={{ textAlign: textAlign }}
       >
         {fabricDesignAspect}
       </p>
       <p
-        className="[font-family:Inter,sans-serif] text-lg font-normal text-center leading-[25px] text-[#dedede] whitespace-pre-wrap grow-0 shrink-0 basis-auto mt-[22px] m-0 p-0"
+        className="font-normal text-center leading-6 text-[#dedede] mt-4 sm:mt-6 md:mt-8"
         style={{ alignSelf: alignmentPreference }}
       >
         {suggestedName}

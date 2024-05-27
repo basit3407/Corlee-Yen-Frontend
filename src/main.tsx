@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import FabricDesignPage from './components/FabricDesignPage'
 import { mockData } from './mockData'
-import Container from './components/Container'
+import Container from './components/Conatainer'
 import NavBar from './components/NavBar'
 const rootElement = document.getElementById('root')
 import './styles/tailwind.css'
