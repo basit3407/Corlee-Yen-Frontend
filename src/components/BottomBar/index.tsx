@@ -10,17 +10,17 @@ function BottomBar() {
     <div className="bg-black w-full box-border flex flex-col items-center border-none">
       <div className="flex flex-col items-center gap-16 w-full max-w-screen-xl px-4 py-20 box-border">
         <ProductSubscriptionSection />
-        <div className="flex justify-between items-center w-full gap-10">
-          <div className="flex justify-start items-center gap-10">
+        <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-10">
+          <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 lg:gap-10 mb-6 lg:mb-0">
             <p className="font-medium text-white">{messages['products']}</p>
             <p className="font-medium text-white">{messages['events']}</p>
             <p className="font-medium text-white">{messages['about_us']}</p>
           </div>
           <img
             src="/assets/img_1091_2339_bf4927.png"
-            className="h-10 object-cover"
+            className="h-10 object-cover mb-6 lg:mb-0"
           />
-          <div className="flex justify-end items-center gap-10">
+          <div className="flex justify-center lg:justify-end items-center gap-4 lg:gap-10">
             <SvgIcon1 className="w-8 h-8 text-white" />
             <SvgIcon2 className="w-8 h-8 text-white" />
             <SvgIcon3 className="w-8 h-8 text-white" />

@@ -7,13 +7,13 @@ function ProductSubscriptionSection() {
     <div className="flex justify-center items-center flex-col w-full px-4">
       <div className="flex justify-center items-center flex-col max-w-[849px] w-full box-border">
         <ProductInfoSection />
-        <div className="flex justify-between items-center w-full max-w-[507px] h-16 mt-16 px-4 border border-white rounded-full">
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full max-w-[507px] h-16 mt-16 px-4 border border-white rounded-full">
           <input
             type="email"
             placeholder={messages['email_here']}
-            className="bg-transparent text-white placeholder-gray-400 flex-grow focus:outline-none"
+            className="bg-transparent text-white placeholder-gray-400 flex-grow focus:outline-none mb-4 sm:mb-0"
           />
-          <Button className="bg-white text-black font-medium text-sm h-12 w-32 rounded-full">
+          <Button className="bg-white text-black font-medium text-sm h-12 w-full sm:w-32 rounded-full">
             {messages['subscribe']}
           </Button>
         </div>
