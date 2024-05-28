@@ -7,8 +7,8 @@ import BottomBar from '../components/BottomBar'
 const Home = () => {
   return (
     <div style={{ background: 'white' }}>
+      <NavBar />
       <Container>
-        <NavBar />
         <FabricDesignPage
           fabricDesignCardsData={mockData.fabricDesignCardsData}
         />

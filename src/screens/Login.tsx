@@ -1,10 +1,14 @@
+import Container from '../components/Container'
 import WelcomePanel from '../components/LoginScreen/WelcomePanel'
 import NavBar from '../components/NavBar'
 
 const Login = () => {
   return (
     <>
-      <NavBar />
+      <Container>
+        <NavBar />
+      </Container>
+
       <WelcomePanel />
     </>
   )
