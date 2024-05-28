@@ -1,5 +1,5 @@
-import { FabricDesignCard, MockData } from '../../@types'
-import FabricDesignLayout from '../FabricDesignLayout'
+import { FabricDesignCard, MockData } from '../../../@types'
+import FabricDesignLayout from '../../FabricDesignLayout'
 
 // Define the props type for FabricDesignPage
 interface FabricDesignPageProps {

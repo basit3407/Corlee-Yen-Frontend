@@ -1,6 +1,6 @@
 import FabricDesignCard from '../FabricDesignCard'
-import { theme } from '../../theme'
-import { FabricDesignCard as CardType } from '../../@types'
+import { theme } from '../../../theme'
+import { FabricDesignCard as CardType } from '../../../@types'
 
 interface Props {
   fabricDesignCardsData: CardType[]

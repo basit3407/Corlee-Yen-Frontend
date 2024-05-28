@@ -1,9 +1,9 @@
-import ImageContainer from '../ImageContainer'
-import DisplayImage1 from '../DisplayImage1'
-import ImageContainer2 from '../ImageContainer2'
-import DisplayImage from '../DisplayImage'
-import ImageContainer1 from '../ImageContainer1'
-import messages from './messages.json'
+import ImageContainer from './ImageContainer'
+import ImageContainer2 from './ImageContainer2'
+import ImageContainer1 from './ImageContainer1'
+import messages from '../RealizationDisplay/messages.json'
+import DisplayImage from './DisplayImage'
+import DisplayImage1 from './DisplayImage1'
 
 function RealizationDisplay() {
   return (

@@ -1,6 +1,6 @@
 import Container from '../components/Container'
 import NavBar from '../components/NavBar'
-import FabricDesignPage from '../components/FabricDesignPage'
+import FabricDesignPage from '../components/HomeScreen/FabricDesignPage'
 import { mockData } from '../util'
 import BottomBar from '../components/BottomBar'
 

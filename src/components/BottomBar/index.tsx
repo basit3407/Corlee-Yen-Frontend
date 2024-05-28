@@ -1,4 +1,4 @@
-import ProductSubscriptionSection from '../ProductSubscriptionSection'
+import ProductSubscriptionSection from '../HomeScreen/ProductSubscriptionSection'
 import SvgIcon1 from './icons/SvgIcon1'
 import SvgIcon2 from './icons/SvgIcon2'
 import SvgIcon3 from './icons/SvgIcon3'
