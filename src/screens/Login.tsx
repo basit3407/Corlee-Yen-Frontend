@@ -1,7 +1,7 @@
-import NavBar from '../components/NavBar'
 import WelcomePanel from '../components/LoginScreen/WelcomePanel'
+import NavBar from '../components/NavBar'
 
-const Home = () => {
+const Login = () => {
   return (
     <>
       <NavBar />
@@ -10,4 +10,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Login

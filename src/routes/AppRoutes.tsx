@@ -1,14 +1,13 @@
-import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from '../screens/Home'
-import WelcomePanel from '../components/LoginScreen/WelcomePanel'
+import Login from '../screens/Login'
 
 const AppRoutes = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<WelcomePanel />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   )
