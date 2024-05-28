@@ -1,11 +1,11 @@
 import { createRoot } from 'react-dom/client'
 import FabricDesignPage from './components/FabricDesignPage'
-import { mockData } from './mockData'
 import Container from './components/Container'
 import NavBar from './components/NavBar'
 const rootElement = document.getElementById('root')
 import './styles/tailwind.css'
 import BottomBar from './components/BottomBar'
+import { mockData } from './util'
 
 if (!rootElement) throw new Error('root element not found')
 
@@ -17,7 +17,9 @@ root.render(
   >
     <Container>
       <NavBar />
-      <FabricDesignPage mockData={mockData} />
+      <FabricDesignPage
+        fabricDesignCardsData={mockData.fabricDesignCardsData}
+      />
     </Container>
     <BottomBar />
   </div>,
